@@ -55,8 +55,8 @@ h1 {
     word-spacing: 0px;
   }
   .root {
+    display: block;
     padding-top: 48px;
-    flex-direction: column;
     font-size: 26px;
   }
   .link {
@@ -70,7 +70,8 @@ h1 {
   }
 
   .column {
-    flex: auto;
+    height: unset;
+    flex: unset;
   }
 
   .column:last-child {
