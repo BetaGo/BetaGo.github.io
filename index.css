@@ -268,17 +268,17 @@ footer > nav a:first-of-type:before {
   }
 
   .right .title {
-    animation: 8s ease-in-out 0s infinite normal move_title_right;
+    animation: 8s ease-in-out 4s infinite normal move_title_right;
   }
   .right .content {
-    animation: 8s ease-in-out 0s infinite normal move_content;
+    animation: 8s ease-in-out 4s infinite normal move_content;
   }
 
   .left .title {
-    animation: 8s ease-in-out 4s infinite normal move_title_left;
+    animation: 8s ease-in-out 0s infinite normal move_title_left;
   }
   .left .content {
-    animation: 8s ease-in-out 4s infinite normal move_content;
+    animation: 8s ease-in-out 0s infinite normal move_content;
   }
 
   .text-footer {
