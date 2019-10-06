@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Nothing</title>
+    <title>Nothing - Remember & Forget</title>
+    <meta
+      name="description"
+      content="Nothing to remember, Nothing to forget."
+    />
     <link rel="stylesheet" href="index.css" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -13,41 +17,99 @@
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
     <meta name="theme-color" content="#ffffff" />
+    <style type="text/css">
+      .icon {
+        width: 1em;
+        height: 1em;
+        vertical-align: -0.15em;
+        fill: currentColor;
+        overflow: hidden;
+      }
+    </style>
   </head>
   <body>
-    <div class="root">
-      <div class="column">
-        <div class="center">
-          <img src="icon.png" alt="a icon combined with camera and code" />
-          <h1>
-            Do Great Things
-          </h1>
-        </div>
+    <header class="header">
+      <svg class="icon" aria-hidden="true">
+        <use xlink:href="#icon-logo"></use>
+      </svg>
+      <span>
+        Do Great Things
+      </span>
+    </header>
+    <main>
+      <div class="main-bg">
+        <svg class="icon" aria-hidden="true">
+          <use xlink:href="#icon-logo"></use>
+        </svg>
       </div>
-      <a class="column link" href="http://blog.gouwantong.com">
-        <div class="center">
-          Technology
+      <a
+        class="left"
+        href="https://life.gouwantong.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="title">BLOG</div>
+        <div class="content">
+          <p>
+            Is life always this hard,
+            <br />
+            or is it just when you're a kid?
+          </p>
+          <p>
+            Always like this
+          </p>
         </div>
       </a>
-      <a class="column link" href="http://life.gouwantong.com">
-        <div class="center">
-          Life
+      <a
+        class="right"
+        href="https://500px.com/gouwantong"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <div class="title">SHOOT</div>
+        <div class="content">
+          <p>
+            What you are you do not see,
+            <br />
+            what you see is your shadow.
+          </p>
         </div>
       </a>
-      <a class="column link" href="https://500px.com/gouwantong">
-        <div class="center">
-          Photography
-        </div>
-      </a>
-      <div class="column">
-        <div class="center">
-          Sometimes
-          <br />
-          later becomes never.
-          <br />
-          Do it now.
-        </div>
+    </main>
+    <div class="text-footer">
+      <div>
+        Sometimes ,later becomes never.
+      </div>
+      <div>
+        Do it now.
       </div>
     </div>
+    <footer>
+      <div>忘川 &copy; 2019</div>
+      <nav>
+        <a
+          href="https://weibo.com/TrueIronMan"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Weibo
+        </a>
+        <a
+          href="https://twitter.com/IronManGWT"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Twitter
+        </a>
+        <a
+          href="https://github.com/BetaGo"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+      </nav>
+    </footer>
+    <script src="//at.alicdn.com/t/font_1445211_tvl7jnf6ce.js"></script>
   </body>
 </html>
