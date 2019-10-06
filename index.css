@@ -40,10 +40,15 @@ footer > nav {
 footer > nav a {
   position: relative;
   margin-left: 20px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 footer > nav a:visited {
   color: #fff;
+}
+footer > nav a:hover {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
 }
 
 footer > nav a::before {
